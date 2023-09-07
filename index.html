@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+	<title>Forex Hub</title>
+
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600;1,700&display=swap" rel="stylesheet" />
+
+	<link rel="stylesheet" href="./assets/css/main.css" />
+</head>
+<body>
+
+
+	<header>
+		<div class="container">
+			<h2><i><span>Sally's </span><strong>ForexHub</strong></i></h2>
+			<nav>
+				<a href="#">Home</a>
+				<a href="#services">Services</a>
+				<a href="#">Books</a>
+				<a href="#contact">Contact</a>
+			</nav>
+			<button class="hamburger">
+				<div class="bar"></div>
+			</button>
+		</div>
+	</header>
+	<nav class="mobile-nav mobile-nav-link">
+		<a  href="#">Home</a>
+		<a href="#services">Services</a>
+		<a href="#">Books</a>
+		<a href="#contact">Contact</a>
+	</nav>
+	<main>
+		<section class="banner">
+			<div class="container">
+				<h1>
+					Why <br class="hide-mob" />
+					<span>Learn from us?</span> 
+				</h1>
+
+				<h3>Learning from us saves you the hussle of finding the right learning path and many more benefits? </h3>
+
+				<a href="#reg-form" class="button">Register Today</a>
+			</div>
+		</section>
+<!-- Intro section -->
+		<section class="intro-section">
+			<div class="container">
+			  <div class="intro-content">
+				<h1>Welcome to <span>Sally's Forex Hub</span></h1>
+				<p>Your gateway to mastering the art of forex trading. Whether you're a complete beginner or an experienced trader looking to refine your skills, our team of experts is here to guide you on your journey to financial success.</p>
+				<p>With a wealth of knowledge, actionable insights, and personalized coaching, we're dedicated to helping you navigate the dynamic world of forex markets.</p>
+				<p>Join us today and unlock the potential to make informed trading decisions, manage risk, and achieve your financial goals. Let's embark on this exciting adventure together!</p>
+			  </div>
+			</div>
+		  </section>
+
+		  <!-- services section -->
+
+		<section id="services" class="services">
+			<div class="container">
+				<h2>What You will Learn</h2>
+				
+				<div class="services-grid">
+
+					<div class="service">
+						<figure class="img-box">
+							<img src="./assets/images/chart1.jpg" alt="Website Service" class="img" />
+						</figure>
+						<div class="content">
+							<h3>One-on-One Coaching Sessions</h3>
+							<p>
+								One-on-One Forex Coaching: Your Goals, Our Guidance: Let's Make Your Trades Shine!
+							</p>
+						</div>
+					</div>
+
+					<div class="service">
+						<figure class="img-box">
+							<img src="./assets/images/chart2.jpeg" alt="App Service" class="img" />
+						</figure>
+						<div class="content">
+							<h3>Trading Strategy Development</h3>
+							<p>
+								Strategies that adapt to changing market conditions provide guidance and structure for informed decision-making and long-term success
+							</p>
+						</div>
+					</div>
+					
+					<div class="service">
+						<figure class="img-box">
+							<img src="./assets/images/service.jpg" alt="Games Service" class="img" />
+						</figure>
+						<div class="content">
+							<h3>Risk Management Training</h3>
+							<p>
+								Unlock the power of informed decision-making with our risk management training. 
+							</p>
+						</div>
+					</div>
+
+					<div class="service">
+						<figure class="img-box">
+							<img src="./assets/images/chart19.jpg" alt="Mentoring Service" class="img" />
+						</figure>
+						<div class="content">
+							<h3>Trading Psychology</h3>
+							<p>
+								Supercharge your trading game with our comprehensive market analysis
+							</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<!-- Testimonials section -->
+
+		<section class="testimonial-section">
+			<h1><i>“  </i>Testimonials<i>  ”</i></h1>
+
+			<div class="container">
+				
+			  <div class="testimonial">
+				<img src="assets/images/chart19.jpg" alt="Testimonial 1">
+				<i class="fas fa-quote-left quote-icon"></i>
+				<p>"I can't thank Sally enough for the incredible coaching experience. Their guidance has transformed my forex trading skills, and I've seen significant improvement in my profits."</p>
+				<i class="fas fa-quote-right quote-icon"></i>
+				<p class="testimonial-author">John Doe</p>
+			  </div>
+			  <div class="testimonial">
+				<img src="assets/images/chart2.jpeg" alt="Testimonial 2">
+				<i class="fas fa-quote-left quote-icon"></i>
+				<p>"The knowledge and support I received from Sally have been invaluable. Their expert insights and personalized coaching have made a world of difference in my trading journey."</p>
+				<i class="fas fa-quote-right quote-icon"></i>
+				<p class="testimonial-author">Jane Smith</p>
+			  </div>
+			</div>
+		  </section>
+<!-- SECTION--registration -->
+		<!-- START OF FORM POPUP -->
+	<div id="reg-form" class="form-wrapper">
+        <video class="background-video" autoplay loop muted>
+            <source src="assets/images/clip3.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        
+    <form action="submit_form.php" method="POST">
+        <h3>Forex Training Registration</h3>
+        <label for="full-name">Full Name:</label>
+        <input type="text" id="full-name" name="full-name" required>
+        
+        <label for="experience">Trading Experience:</label>
+        <select id="experience" name="experience" required>
+            <option value=" ">Select experience</option>
+            <option value="beginner">Beginner</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="advanced">Advanced</option>
+        </select>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+        
+        <input type="submit" value="Submit">
+    </form>
+
+    </div>
+	<!-- END OF FORM POPUP  -->
+
+		<!-- Footer  -->
+			<footer class="footer">
+				<div class="container">
+				  <div class="footer-content">
+					<div id="contact" class="footer-section contact">
+					  <h3>Contact Us</h3>
+					  <p>Email: sallyforexhub@gmail.com</p>
+					  <p>Phone: +254-123-456-7890</p>
+					  <p>Address: 123 Forex Street, City, Country</p>
+					</div>
+					<div class="footer-section links">
+					  <h3>Quick Links</h3>
+					  <ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Classes</a></li>
+						<li><a href="#">Contact</a></li>
+					  </ul>
+					</div>
+					<div class="footer-section social">
+					  <h3>Connect with Us</h3>
+					  <ul>
+						<li><a href="#"><i class="fab fa-facebook"></i> Facebook</a></li>
+						
+						
+						<li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+					  </ul>
+					</div>
+				  </div>
+				</div>
+			  </footer>
+
+			  <button id="back-to-top" title="Go to top">&#9650;</button>
+			  
+	<script src="./assets/js/main.js"></script>
+</body>
+</html>
