@@ -202,12 +202,13 @@ header .container h2 {
     margin-right: 15px;
   
 }
-/* 
-@media  (max-width: 406px){
+
+@media  (max-width: 760px){
     header .container h2 {
-        
+      font-size:28px;
+            
     }
-} */
+} 
 
 header .container h2 span {
     font-weight: 600;
