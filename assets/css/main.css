@@ -205,7 +205,9 @@ header .container h2 {
 
 @media  (max-width: 760px){
     header .container h2 {
-      font-size:28px;
+      font-size:24px;
+margin-right:10px;
+
             
     }
 } 
